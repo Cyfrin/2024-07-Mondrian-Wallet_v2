@@ -1,6 +1,4 @@
-## Mondrian Wallet v2
-
-[//]: # (contest-details-open)
+# Mondrian Wallet v2
 
 - High - 100xp
 - Medium - 20xp
@@ -9,7 +7,9 @@
 - Starts: July 04, 2024 Noon UTC
 - Ends: July 11, 2024 Noon UTC
 
-# About
+[//]: # (contest-details-open)
+
+## About
 
 The Mondrian Wallet team is back! And they decided "oh wow, zkSync has native account abstraction! Let's just use that. Also, we introduced a lot of bugs, so let's just make this codebase upgradeable, so that only the owner of the wallet can introduce functionality later as they see fit. Also, the NFT gimmick was silly so, let's not do that again."
 
