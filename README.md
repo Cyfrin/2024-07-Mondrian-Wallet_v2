@@ -1,9 +1,13 @@
 ## Mondrian Wallet v2
 
-<p align="center">
-Coming Soon!
-<br/>
+[//]: # (contest-details-open)
 
+- High - 100xp
+- Medium - 20xp
+- Low - 2xp
+
+- Starts: July 04, 2024 Noon UTC
+- Ends: July 11, 2024 Noon UTC
 
 # About
 
@@ -24,6 +28,14 @@ You can learn more about about account abstraction on zkSync by watching the [ac
 
 The wallet should be able to do anything a normal EoA can do, but with limited functionality interacting with system contracts. 
 
+## Roles
+
+- `Owner` - The owner of the wallet, who can upgrade the wallet.
+- zkSync system contracts - We don't consider these "actors" for the audit. 
+
+[//]: # (contest-details-close)
+
+[//]: # (getting-started-open)
 
 # Getting Started 
 
@@ -51,15 +63,10 @@ make build # this will update foundry-zksync
 make test # this will run with via-ir and --system-mode=true
 ```
 
-## Contest Details
+[//]: # (getting-started-close)
 
-- High - 100xp
-- Medium - 20xp
-- Low - 2xpp
+[//]: # (scope-open)
 
-- Starts: July 04, 2024 Noon UTC
-- Ends: July 11, 2024 Noon UTC
-  
 ## Scope
 
 ```
@@ -77,15 +84,13 @@ make test # this will run with via-ir and --system-mode=true
 - Deployment information:
   - Out of scope
 
+[//]: # (scope-close)
 
-## Roles
-
-- `Owner` - The owner of the wallet, who can upgrade the wallet.
-- zkSync system contracts - We don't consider these "actors" for the audit. 
-
-
+[//]: # (known-issues-open)
 
 ## Known Issues
 
 - The wallet may not work as intended with zksync system contracts. The only system contract that it is expected to work correctly with is the `DEPLOYER_CONTRACT` and the `NONCE_HOLDER_SYSTEM_CONTRACT`.
-- We are using the `cyfrin/foundry-era-contracts` package, which is not what the zkSync documentation recommends. Please ignore. 
+- We are using the `cyfrin/foundry-era-contracts` package, which is not what the zkSync documentation recommends. Please ignore.
+
+[//]: # (known-issues-close)
