@@ -7,6 +7,8 @@
 - Starts: July 04, 2024 Noon UTC
 - Ends: July 11, 2024 Noon UTC
 
+- nSloc: 105
+
 [//]: # (contest-details-open)
 
 ## About
