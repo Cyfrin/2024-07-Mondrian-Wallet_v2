@@ -53,7 +53,7 @@ The wallet should be able to do anything a normal EoA can do, but with limited f
 ## Installation
 
 ```bash
-git clone https://github.com/PatrickAlphaC/minimal-account-abstraction
+git clone https://codehawks.cyfrin.io/c/2024-07-Mondrian-Wallet_v2
 cd minimal-account-abstraction
 make
 ```
